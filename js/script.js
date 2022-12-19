@@ -1,4 +1,4 @@
-let button = document.querySelector("button");
+let divClick = document.querySelector('.quotes');
 let quoteShow = document.querySelector('#quote');
 let authorShow = document.querySelector('#author');
 
@@ -75,5 +75,5 @@ const showQuotes = function (arrQuotes, autorLine, quoteLine) {
     quoteLine.innerHTML = arrQuotes[x].quote;
 }
 
-button.addEventListener('click', () => showQuotes(quotes, authorShow, quoteShow));
+divClick.addEventListener('click', () => showQuotes(quotes, authorShow, quoteShow));
 

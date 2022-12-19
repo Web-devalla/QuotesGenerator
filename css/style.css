@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: #303640;
 }
@@ -25,7 +27,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 30px;
+    padding: 20px 20px;
     color: rgba(227, 220, 220, 0.867);
     background-color: #303640;
     border: 1px solid rgba(255, 255, 255, 0.05) ;
@@ -45,7 +47,9 @@ body {
     }
 }
 
-button {
+/* For button */
+
+/* button {
     position: relative;
     font-size: 12px;
     text-transform: uppercase;
@@ -93,4 +97,4 @@ button {
    button:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
-   }
+   } */
